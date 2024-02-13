@@ -7,6 +7,7 @@ const Fonts = {
     PIXEL: 'Pixel',
     PLAYFUL: 'Playful',
     BUBBLY: 'Bubbly',
+    HANDJET: 'Handjet',
     BITSANDBYTES: 'Bits and Bytes',
     TECHNOLOGICAL: 'Technological',
     ARCADE: 'Arcade',

@@ -25,6 +25,7 @@ class FontDropdown extends React.Component {
             'handleChangeFontPixel',
             'handleChangeFontPlayful',
             'handleChangeFontBubbly',
+            'handleChangeFontHandjet',
             'handleChangeFontTechnological',
             'handleChangeFontBitsAndBytes',
             'handleChangeFontArcade',
@@ -241,6 +242,11 @@ class FontDropdown extends React.Component {
             this.props.changeFont(Fonts.BUBBLY);
         }
     }
+    handleChangeFontHandjet() {
+        if (this.dropDown.isOpen()) {
+            this.props.changeFont(Fonts.HANDJET);
+        }
+    }
     handleChangeFontTechnological() {
         if (this.dropDown.isOpen()) {
             this.props.changeFont(Fonts.TECHNOLOGICAL);
@@ -380,6 +386,7 @@ class FontDropdown extends React.Component {
                 onHoverPixel={this.handleChangeFontPixel}
                 onHoverPlayful={this.handleChangeFontPlayful}
                 onHoverBubbly={this.handleChangeFontBubbly}
+                onHoverHandjet={this.handleChangeFontHandjet}
                 onHoverBitsAndBytes={this.handleChangeFontBitsAndBytes}
                 onHoverTechnological={this.handleChangeFontTechnological}
                 onHoverArcade={this.handleChangeFontArcade}
