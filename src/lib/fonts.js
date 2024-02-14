@@ -8,6 +8,7 @@ const Fonts = {
     PLAYFUL: 'Playful',
     BUBBLY: 'Bubbly',
     HANDJET: 'Handjet',
+    LUCKY: 'Luckiest Guy',
     BITSANDBYTES: 'Bits and Bytes',
     TECHNOLOGICAL: 'Technological',
     ARCADE: 'Arcade',
