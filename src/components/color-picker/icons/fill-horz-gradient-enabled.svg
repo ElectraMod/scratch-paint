@@ -1,15 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
-    <title>fill-horz-gradient-enabled</title>
-    <desc>Created with Sketch.</desc>
-    <defs>
-        <linearGradient x1="100%" y1="50%" x2="0%" y2="50%" id="linearGradient-1">
-            <stop stop-color="#FFFFFF" offset="0%"></stop>
-            <stop stop-color="#00c3ff" offset="100%"></stop>
-        </linearGradient>
-    </defs>
-    <g id="fill-horz-gradient-enabled" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-opacity="0.15">
-        <rect id="Horizontal" stroke="#000000" fill="url(#linearGradient-1)" x="0.5" y="0.5" width="19" height="19" rx="4"></rect>
-    </g>
-</svg>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20" viewBox="0,0,20,20"><defs><linearGradient x1="249.5" y1="180" x2="230.5" y2="180" gradientUnits="userSpaceOnUse" id="color-1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#625e97"/></linearGradient></defs><g transform="translate(-230,-170)"><g data-paper-data="{&quot;isPaintingLayer&quot;:true}" fill="url(#color-1)" fill-rule="evenodd" stroke="#000000" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" style="mix-blend-mode: normal"><path d="M234.5,189.5c-2.20914,0 -4,0 -4,0v-19c0,0 1.79086,0 4,0h11c2.20914,0 4,0 4,0v19c0,0 -1.79086,0 -4,0z"/></g></g></svg><!--rotationCenter:10:10-->
