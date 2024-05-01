@@ -163,6 +163,26 @@ const ModeToolsComponent = props => (
                 <Button
                     className={classNames(styles.modMenuItem)}
                     onClick={props.onChoose}
+                    onMouseOver={props.onHoverMinecraft}
+                >
+                    <DisplayFont
+                        font={Fonts.MINECRAFT}
+                        getFontName={props.getFontName}
+                    />
+                </Button>
+                <Button
+                    className={classNames(styles.modMenuItem)}
+                    onClick={props.onChoose}
+                    onMouseOver={props.onHoverMinecraft_Bold}
+                >
+                    <DisplayFont
+                        font={Fonts.MINECRAFT_BOLD}
+                        getFontName={props.getFontName}
+                    />
+                </Button>
+                <Button
+                    className={classNames(styles.modMenuItem)}
+                    onClick={props.onChoose}
                     onMouseOver={props.onHoverScratch}
                 >
                     <DisplayFont
@@ -296,6 +316,8 @@ ModeToolsComponent.propTypes = {
    // onHoverLucky: PropTypes.func,
     onHoverBitsAndBytes: PropTypes.func,
     onHoverTechnological: PropTypes.func,
+    onHoverMinecraft: PropTypes.func,
+    onHoverMinecraft_Bold: PropTypes.func,
     onHoverArcade: PropTypes.func,
     onHoverScratch: PropTypes.func,
     onHoverArchivo: PropTypes.func,
