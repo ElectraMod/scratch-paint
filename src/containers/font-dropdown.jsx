@@ -28,6 +28,8 @@ class FontDropdown extends React.Component {
             'handleChangeFontHandjet',
           //  'handleChangeFontLucky',
             'handleChangeFontTechnological',
+            'handleChangeFontMinecraft',
+            'handleChangeFontMinecraft_Bold',
             'handleChangeFontBitsAndBytes',
             'handleChangeFontArcade',
             'handleChangeFontScratch',
@@ -258,6 +260,16 @@ class FontDropdown extends React.Component {
             this.props.changeFont(Fonts.TECHNOLOGICAL);
         }
     }
+    handleChangeFontMinecraft() {
+        if (this.dropDown.isOpen()) {
+            this.props.changeFont(Fonts.MINECRAFT);
+        }
+    }
+    handleChangeFontMinecraft_Bold() {
+        if (this.dropDown.isOpen()) {
+            this.props.changeFont(Fonts.MINECRAFT_BOLD);
+        }
+    }
     handleChangeFontArcade() {
         if (this.dropDown.isOpen()) {
             this.props.changeFont(Fonts.ARCADE);
@@ -396,6 +408,8 @@ class FontDropdown extends React.Component {
              //   onHoverLucky={this.handleChangeFontLucky}
                 onHoverBitsAndBytes={this.handleChangeFontBitsAndBytes}
                 onHoverTechnological={this.handleChangeFontTechnological}
+                onHoverMinecraft={this.handleChangeFontMinecraft}
+                onHoverMinecraft_Bold={this.handleChangeFontMinecraft_Bold}
                 onHoverArcade={this.handleChangeFontArcade}
                 onHoverArchivo={this.handleChangeFontArchivo}
                 onHoverArchivoBlack={this.handleChangeFontArchivoBlack}
